@@ -14,6 +14,7 @@
 		1210E4032975ED5C008EFA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1210E4022975ED5C008EFA98 /* Assets.xcassets */; };
 		1210E4062975ED5C008EFA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1210E4042975ED5C008EFA98 /* LaunchScreen.storyboard */; };
 		12ADADAF298A690400EF1A02 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 12ADADAE298A690400EF1A02 /* SnapKit */; };
+		12ADADB1298A6BA700EF1A02 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ADADB0298A6BA700EF1A02 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		1210E4022975ED5C008EFA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1210E4052975ED5C008EFA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1210E4072975ED5C008EFA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12ADADB0298A6BA700EF1A02 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				1210E3F92975ED5A008EFA98 /* AppDelegate.swift */,
 				1210E3FB2975ED5A008EFA98 /* SceneDelegate.swift */,
 				1210E3FD2975ED5A008EFA98 /* ViewController.swift */,
+				12ADADB0298A6BA700EF1A02 /* APIManager.swift */,
 				1210E3FF2975ED5A008EFA98 /* Main.storyboard */,
 				1210E4022975ED5C008EFA98 /* Assets.xcassets */,
 				1210E4042975ED5C008EFA98 /* LaunchScreen.storyboard */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ADADB1298A6BA700EF1A02 /* APIManager.swift in Sources */,
 				1210E3FE2975ED5A008EFA98 /* ViewController.swift in Sources */,
 				1210E3FA2975ED5A008EFA98 /* AppDelegate.swift in Sources */,
 				1210E3FC2975ED5A008EFA98 /* SceneDelegate.swift in Sources */,
