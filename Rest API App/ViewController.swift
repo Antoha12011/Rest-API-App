@@ -17,7 +17,7 @@ class ViewController: UIViewController {
             make.edges.equalToSuperview()
         }
         tableView.dataSource = self
-        tableView.register(tableViewCell.self, forCellReuseIdentifier: "cell")
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
     }
 
 // MARK: - Private properties
