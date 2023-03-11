@@ -13,6 +13,7 @@
 		1210E4012975ED5A008EFA98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1210E3FF2975ED5A008EFA98 /* Main.storyboard */; };
 		1210E4032975ED5C008EFA98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1210E4022975ED5C008EFA98 /* Assets.xcassets */; };
 		1210E4062975ED5C008EFA98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1210E4042975ED5C008EFA98 /* LaunchScreen.storyboard */; };
+		12B9AFA929BCB673002A5D59 /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B9AFA829BCB673002A5D59 /* HeroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		1210E4022975ED5C008EFA98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1210E4052975ED5C008EFA98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1210E4072975ED5C008EFA98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12B9AFA829BCB673002A5D59 /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				1210E3F92975ED5A008EFA98 /* AppDelegate.swift */,
 				1210E3FB2975ED5A008EFA98 /* SceneDelegate.swift */,
 				1210E3FD2975ED5A008EFA98 /* ViewController.swift */,
+				12B9AFA829BCB673002A5D59 /* HeroViewController.swift */,
 				1210E3FF2975ED5A008EFA98 /* Main.storyboard */,
 				1210E4022975ED5C008EFA98 /* Assets.xcassets */,
 				1210E4042975ED5C008EFA98 /* LaunchScreen.storyboard */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12B9AFA929BCB673002A5D59 /* HeroViewController.swift in Sources */,
 				1210E3FE2975ED5A008EFA98 /* ViewController.swift in Sources */,
 				1210E3FA2975ED5A008EFA98 /* AppDelegate.swift in Sources */,
 				1210E3FC2975ED5A008EFA98 /* SceneDelegate.swift in Sources */,
@@ -298,6 +302,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -326,6 +331,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
